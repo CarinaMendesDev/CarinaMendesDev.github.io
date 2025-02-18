@@ -1,60 +1,63 @@
 let amigos = [];
 
 function adicionarAmigo() {
-    const amigoInput = document.getElementById('amigo');
-    const amigoNome = amigoInput.value.trim();
-
-    if (amigoNome === "") {
-        alert("Por favor, insira um nome válido!");
-    } else {
-        amigos.push(amigoNome);
-        atualizarLista();
+    const inputAmigo = document.getElementById("amigo");
+    const nome = inputAmigo.value.trim();
+    
+    if (!nome) {
+        alert("Por favor, insira um nome válido.");
+        return;
     }
-
-    amigoInput.value = "";
+    
+    if (amigos.includes(nome)) {
+        alert("Esse nome já foi adicionado.");
+        return;
+    }
+    
+    amigos.push(nome);
+    atualizarLista("listaAmigos", amigos);
+    inputAmigo.value = "";
 }
 
-function atualizarLista() {
-    const listaAmigos = document.getElementById('listaAmigos');
-    listaAmigos.innerHTML = ""; 
-
-    amigos.forEach(function(amigo) {
-        const li = document.createElement('li');
-        li.textContent = amigo;
-        listaAmigos.appendChild(li);
-    });
-
-        const buttonDraw = document.getElementById('button-draw');
-    if (amigos.length > 0) {
-        buttonDraw.disabled = false;
-    }
+function atualizarLista(elementoId, lista) {
+    const elemento = document.getElementById(elementoId);
+    elemento.innerHTML = lista.map(amigo => `<li>${amigo}</li>`).join("");
 }
 
 function sortearAmigo() {
-    const buttonDraw = document.getElementById('button-draw');
-    buttonDraw.disabled = true;
-
-    if (amigos.length === 0) {
-        alert("Por favor, adicione ao menos um nome antes de sortear!");
-        buttonDraw.disabled = false;
+    if (amigos.length < 2) {
+        alert("Adicione pelo menos dois nomes para sortear.");
         return;
     }
-
-    const sorteado = amigos[Math.floor(Math.random() * amigos.length)];
-
-    const resultado = document.getElementById('resultado');
-    resultado.innerHTML = `<li>O amigo secreto sorteado é: <strong>${sorteado}</strong></li>`;
+    
+    let sorteio = [...amigos];
+    for (let i = sorteio.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [sorteio[i], sorteio[j]] = [sorteio[j], sorteio[i]];
+    }
+    
+    const resultado = sorteio.map((amigo, index) => `${amigo} tira ${sorteio[(index + 1) % sorteio.length]}`);
+    atualizarLista("resultado", resultado);
 }
 
-function novoSorteio() {
-    const listaAmigos = document.getElementById('listaAmigos');
-    listaAmigos.innerHTML = "";
-
-    const resultado = document.getElementById('resultado');
-    resultado.innerHTML = "";
-
+function reiniciarLista() {
     amigos = [];
-
-    const buttonDraw = document.getElementById('button-draw');
-    buttonDraw.disabled = false;
+    atualizarLista("listaAmigos", amigos);
+    atualizarLista("resultado", []);
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    const buttonContainer = document.querySelector(".button-container");
+    
+    const botaoSortear = document.querySelector(".button-draw");
+    
+    const botaoReiniciar = document.createElement("button");
+    botaoReiniciar.textContent = "Reiniciar";
+    botaoReiniciar.className = "button-draw";
+    botaoReiniciar.onclick = reiniciarLista;
+    
+    botaoReiniciar.style.width = getComputedStyle(botaoSortear).width;
+    botaoReiniciar.style.marginTop = "10px";
+    
+    buttonContainer.appendChild(botaoReiniciar);
+});
