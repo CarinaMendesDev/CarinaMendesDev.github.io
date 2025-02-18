@@ -8,6 +8,7 @@
     --color-white: #FFFFFF;
 }
 
+/* Estilos gerais */
 * {
     margin: 0;
     padding: 0;
@@ -29,6 +30,7 @@ body {
     width: 100%;
 }
 
+/* Banner */
 .header-banner {
     flex: 40%;
     display: flex;
@@ -37,6 +39,7 @@ body {
     padding: 40px 0 0;
 }
 
+/* Seção de entrada */
 .input-section {
     flex: 60%;
     background-color: var(--color-secondary);
@@ -49,6 +52,7 @@ body {
     width: 100%;
 }
 
+/* Títulos */
 .main-title {
     font-size: 48px;
     font-family: "Merriweather", serif;
@@ -66,6 +70,7 @@ body {
     text-align: center;
 }
 
+/* Contêineres de entrada e botão */
 .input-wrapper {
     display: flex;
     justify-content: center;
@@ -87,6 +92,7 @@ body {
     justify-content: center;
 }
 
+/* Estilos de entrada de texto */
 .input-title {
     flex: 1;
     padding: 10px 15px;
@@ -98,6 +104,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+/* Estilos de botão */
 button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
@@ -118,6 +125,7 @@ button {
     background-color: #a1a1a1;
 }
 
+/* Listas */
 ul {
     list-style-type: none;
     color: var(--color-text);
@@ -152,4 +160,3 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
-
