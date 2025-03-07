@@ -1,8 +1,6 @@
 <img src="https://github.com/user-attachments/assets/cc468c98-3006-4cda-ba44-d749426ec337" alt="Amigo Secreto" width="200"/>
-
 ---
-
-⭐ **Objetivo do Projeto:**  
+## ⭐ **Objetivo do Projeto** 
 O Desafio Amigo Secreto é um projeto que foi desenvolvido pela **Alura** no programa ONE, com o objetivo de desenvolver as habilidades em **lógica de programação**, consolidar os conhecimentos, dominar o raciocínio lógico, aprimorar habilidades de análise e resolução de problemas.
 
 ---
@@ -28,7 +26,7 @@ O Desafio Amigo Secreto é um projeto que foi desenvolvido pela **Alura** no pro
 
 ---
 
-## 🛠️ **Conceitos Aplicados:**  
+## 🛠️ **Conceitos Aplicados**  
 📌 **JavaScript:** Uso de arrays, funções e eventos para interatividade.  
 📌 **HTML:** Estruturação da interface com elementos semânticos e acessibilidade.  
 📌 **CSS:** Estilização da página com variáveis CSS, flexbox e efeitos visuais para melhor experiência do usuário.
