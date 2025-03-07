@@ -1,4 +1,5 @@
-<img src="https://github.com/user-attachments/assets/cc468c98-3006-4cda-ba44-d749426ec337" alt="Amigo Secreto" width="100"/>
+<img src="https://github.com/user-attachments/assets/cc468c98-3006-4cda-ba44-d749426ec337" alt="Amigo Secreto" width="120"/>
+# 🎉 Challenge Amigo Secreto
 
 ---
 
