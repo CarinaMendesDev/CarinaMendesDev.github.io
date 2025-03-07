@@ -1,12 +1,4 @@
-
----
-
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/cc468c98-3006-4cda-ba44-d749426ec337" alt="Amigo Secreto" width="200" height="150"/></td>
-    <td><p>🎉 Challenge Amigo Secreto</p></td>
-  </tr>
-</table>
+<img src="https://github.com/user-attachments/assets/cc468c98-3006-4cda-ba44-d749426ec337" alt="Amigo Secreto" width="200"/>
 
 ---
 
