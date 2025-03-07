@@ -1,7 +1,10 @@
+<div style="display: flex; align-items: center;">
+    <img src="https://github.com/user-attachments/assets/cc468c98-3006-4cda-ba44-d749426ec337" alt="Amigo Secreto" width="200" height="150" style="margin-right: 20px;"/>
+    <p>🎉 Challenge Amigo Secreto</p>
+</div>
 
 ---
-<img src="https://github.com/user-attachments/assets/cc468c98-3006-4cda-ba44-d749426ec337" alt="Amigo Secreto" width="200"/>
-# 🎉 **Challenge Amigo Secreto**
+
 ⭐ **Objetivo do Projeto:**  
 O Desafio Amigo Secreto é um projeto que foi desenvolvido pela **Alura** no programa ONE, com o objetivo de desenvolver as habilidades em **lógica de programação**, consolidar os conhecimentos, dominar o raciocínio lógico, aprimorar habilidades de análise e resolução de problemas.
 
