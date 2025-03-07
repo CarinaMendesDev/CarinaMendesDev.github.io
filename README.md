@@ -1,4 +1,3 @@
-![pngwing com (4)](https://github.com/user-attachments/assets/cc468c98-3006-4cda-ba44-d749426ec337)
 <img src="https://github.com/user-attachments/assets/cc468c98-3006-4cda-ba44-d749426ec337" alt="Amigo Secreto" width="400"/>
 
 🎉 Challenge Amigo Secreto
