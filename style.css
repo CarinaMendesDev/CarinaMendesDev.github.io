@@ -178,3 +178,37 @@ ul {
 .button-restart:hover {
     background-color: #ccc; 
 }
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 32px;
+    }
+    .section-title {
+        font-size: 24px;
+    }
+    .input-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .input-name {
+        border-radius: 25px;
+        margin-bottom: 10px;
+    }
+    .button-add {
+        border-radius: 25px;
+        width: 100%;
+    }
+    .button-container {
+        width: 100%;
+        text-align: center;
+    }
+    .button-draw {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .button-draw img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
