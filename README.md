@@ -72,9 +72,15 @@ Os testes foram realizados manualmente em navegadores modernos, incluindo Google
 ---
 
 ## 📜 **Licença**  
+![Licença MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 Projeto licenciado sob a **MIT License** 📝, permitindo uso, modificação e distribuição livre.
 
 ---
 
 ## ✨ **Reflexão Final**  
 💡 Este projeto foi uma excelente oportunidade para aplicar meus conhecimentos em JavaScript, especialmente na manipulação de arrays e criação de funções, além de aprimorar minhas habilidades em CSS para construir uma interface responsiva e visualmente atrativa. Sem dúvida, este projeto será um destaque no meu portfólio, evidenciando minha capacidade de resolver problemas de forma prática, eficiente e criativa no desenvolvimento web.
+![Feito com Amor](https://img.shields.io/badge/Feito%20com-%E2%9D%A4-red?style=for-the-badge)
+![Versão](https://img.shields.io/badge/Versão-1.0-blue?style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+
