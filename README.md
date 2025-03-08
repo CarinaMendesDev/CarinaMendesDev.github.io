@@ -27,6 +27,9 @@ O Desafio Amigo Secreto é um projeto que foi desenvolvido pela **Alura** no pro
 
 ## 🚀 **Tecnologias Utilizadas**  
 🖥️ **Linguagens de Programação:** HTML, CSS e JavaScript.
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ---
 
@@ -81,7 +84,3 @@ Projeto licenciado sob a **MIT License** 📝, permitindo uso, modificação e d
 💡 Este projeto foi uma excelente oportunidade para aplicar meus conhecimentos em JavaScript, especialmente na manipulação de arrays e criação de funções, além de aprimorar minhas habilidades em CSS para construir uma interface responsiva e visualmente atrativa. Sem dúvida, este projeto será um destaque no meu portfólio, evidenciando minha capacidade de resolver problemas de forma prática, eficiente e criativa no desenvolvimento web.
 
 ![Feito com Amor](https://img.shields.io/badge/Feito%20com-%E2%9D%A4-red?style=for-the-badge)
-![Versão](https://img.shields.io/badge/Versão-1.0-blue?style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-
