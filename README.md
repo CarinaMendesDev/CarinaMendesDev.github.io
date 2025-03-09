@@ -19,9 +19,11 @@ O Desafio Amigo Secreto é um projeto que foi desenvolvido pela **Alura** no pro
 
 ## ⚙️ **Funcionalidades Implementadas**  
 ✅ **Usuário adiciona Amigos:** O usuário deverá adicionar nomes de amigos no campo de texto por meio de um botão "Adicionar";  
-✅ **Validar entrada:** Se o campo de texto estiver vazio, o programa exibirá um alerta solicitando um nome válido;  
+✅ **Validação de entrada:** Se o campo de texto estiver vazio, o programa exibirá um alerta solicitando um nome válido;  
 ✅ **Visualizar a lista:** Exibe os nomes dos amigos inseridos em uma lista visível na página;  
 ✅ **Sorteio Aleatório do Amigo Secreto:** O sorteio é aleatório e determinar quem é o "amigo secreto" por meio de um botão "Sortear Amigo", exibindo o resultado na tela.
+✅ **Usuário Reinicia o jogo:** Após o termino do sorteio o usuário pode reiniciar o jogão por meio de um botão "Reiniciar".
+
 
 ---
 
@@ -56,21 +58,21 @@ O Desafio Amigo Secreto é um projeto que foi desenvolvido pela **Alura** no pro
 
 ## 🧪 **Testes do Programa**  
 🔍 **Testes Realizados:**  
-- **Testes de Funcionalidade:** O programa foi testado para garantir que as funcionalidades de adicionar amigos, validar entrada, e realizar o sorteio do amigo secreto estão funcionando corretamente.
+- **Testes de Funcionalidade:** O programa foi testado para garantir que as funcionalidades de adicionar amigos, validar entrada, realizar o sorteio do amigo secreto, exibir o amigo sorteado e reiniciar o jogo, estão funcionando corretamente.
 - **Testes de Validação:** Garantido que não seja possível adicionar um nome em branco e que a lista de amigos seja exibida corretamente.
 - **Testes de Interface:** A interface foi testada em diferentes tamanhos de tela para garantir que a experiência seja responsiva e acessível.
+  
 🔧 **Ferramentas de Teste:**  
 Os testes foram realizados manualmente em navegadores modernos, incluindo Google Chrome e Mozilla Firefox, verificando todos os fluxos de interação com o usuário.
 
 ---
 
 ## 🔥 **Melhorias Futuras**  
-🚀 **Adicionar Nomes com Enter:** Implementar a funcionalidade de adicionar nomes à lista ao pressionar a tecla "Enter", melhorando a experiência do usuário.  
-🚀 **Remover Nomes:** Adicionar um botão ou funcionalidade para remover nomes da lista de amigos após a confirmação, permitindo que o usuário faça edições na lista.  
-🚀 **Persistência de Dados:** Implementar o armazenamento local (LocalStorage) para salvar a lista de nomes, garantindo que os dados não sejam perdidos ao recarregar a página ou fechar o navegador.  
-🚀 **Melhoria no Design:** Melhorar o design visual com animações e transições, como suavizar a transição de inserção de itens e a exibição dos resultados do sorteio.  
-🚀 **Aprimorar Acessibilidade:** Melhorar a acessibilidade para tornar a aplicação mais inclusiva, como a navegação com teclado e suporte a leitores de tela.  
-🚀 **Feedback Visual no Sorteio:** Adicionar animações ou feedback visual no processo de sorteio para tornar a experiência mais interativa e divertida para o usuário.
+🚀 **Adicionar Nomes com Enter:** Implementar a funcionalidade de adicionar nomes à lista ao pressionar a tecla "Enter".
+🚀 **Remover Nomes:** Implementar a funcionalidade para remoção de nomes da lista após a confirmação.
+🚀 **Armazenamento de dados:** Implementar o armazenamento local para salvar a lista de nomes.
+🚀 **Aprimoramento Visual:** Melhorar o design visual com animações e transições fluídas.
+🚀 **Acessibilidade:** Implementar a acessibilidade para tornar o jogo mais inclusivo, como a navegação e suporte a leitores de tela.  
 
 ---
 
@@ -81,6 +83,6 @@ Projeto licenciado sob a **MIT License** 📝, permitindo uso, modificação e d
 ---
 
 ## ✨ **Reflexão Final**  
-💡 Este projeto foi uma excelente oportunidade para aplicar meus conhecimentos em JavaScript, especialmente na manipulação de arrays e criação de funções, além de aprimorar minhas habilidades em CSS para construir uma interface responsiva e visualmente atrativa. Sem dúvida, este projeto será um destaque no meu portfólio, evidenciando minha capacidade de resolver problemas de forma prática, eficiente e criativa no desenvolvimento web.
+💡 Este projeto foi uma excelente oportunidade para aplicar meus conhecimentos em JavaScript, especialmente na manipulação de arrays e criação de funções, além de aprimorar minhas habilidades em CSS para construir uma interface responsiva e visualmente atrativa, evidenciando minha capacidade de resolver problemas de forma prática, eficiente e criativa no desenvolvimento web.
 
 [![Feito com Amor](https://img.shields.io/badge/Feito_com-❤️-red)](https://github.com/CarinaMendesDev)
