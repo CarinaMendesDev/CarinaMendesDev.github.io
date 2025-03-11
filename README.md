@@ -23,7 +23,7 @@ O Desafio Amigo Secreto é um projeto que foi desenvolvido pela **Alura** no pro
 ✅ **Visualizar a lista:** Exibe os nomes dos amigos inseridos em uma lista visível na página;  
 ✅ **Sorteio Aleatório do Amigo Secreto:** O sorteio é aleatório e determinar quem é o "amigo secreto" por meio de um botão "Sortear Amigo", exibindo o resultado na tela.
 ✅ **Usuário Reinicia o jogo:** Após o termino do sorteio o usuário pode reiniciar o jogão por meio de um botão "Reiniciar".
-
+![image](https://github.com/user-attachments/assets/61f00a34-bb83-4f9b-bf34-4d43d3f7520c)
 
 ---
 
