@@ -50,12 +50,10 @@ O Desafio Amigo Secreto é um projeto que foi desenvolvido pela **Alura** no pro
 ---
 
 ## 🛠️ **Como Executar o Projeto**  
-1️⃣ **Abra em um navegador web:** Basta abrir o arquivo index.html em qualquer navegador moderno para acessar o sorteio de Amigo Secreto.  
-2️⃣ **Hospedagem local:** Faça o download dos arquivos e abra o index.html no navegador para visualizar o projeto funcionando.  
+1️⃣ **Abra em um navegador web:** Faça o download dos arquivos e abra o index.html no navegador para visualizar o projeto funcionando.  
 3️⃣ **Deploy online:** Via link ([https://carinamendesdev.github.io/jogo_amigo_secreto/](https://carinamendesdev.github.io/jogo_amigo_secreto/)), sem necessidade de baixar arquivos ou rodar localmente.
 
 ![image](https://github.com/user-attachments/assets/1f9630c3-2a8b-4d88-aec7-41e27882b64d)
-
 
 ---
 
