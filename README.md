@@ -51,7 +51,7 @@ O Desafio Amigo Secreto é um projeto que foi desenvolvido pela **Alura** no pro
 
 ## 🛠️ **Como Executar o Projeto**  
 1️⃣ **Abra em um navegador web:** Faça o download dos arquivos e abra o index.html no navegador para visualizar o projeto funcionando.  
-3️⃣ **Deploy online:** Via link ([https://carinamendesdev.github.io/jogo_amigo_secreto/](https://carinamendesdev.github.io/jogo_amigo_secreto/)), sem necessidade de baixar arquivos ou rodar localmente.
+2️⃣ **Deploy online:** Via link ([https://carinamendesdev.github.io/jogo_amigo_secreto/](https://carinamendesdev.github.io/jogo_amigo_secreto/)), sem necessidade de baixar arquivos ou rodar localmente.
 
 ![image](https://github.com/user-attachments/assets/1f9630c3-2a8b-4d88-aec7-41e27882b64d)
 
@@ -73,7 +73,7 @@ Os testes foram realizados manualmente em navegadores modernos, incluindo Google
 🚀 **Remover Nomes:** Implementar a funcionalidade para remoção de nomes da lista após a confirmação.
 🚀 **Armazenamento de dados:** Implementar o armazenamento local para salvar a lista de nomes.
 🚀 **Aprimoramento Visual:** Melhorar o design visual com animações e transições fluídas.
-🚀 **Acessibilidade:** Implementar a acessibilidade para tornar o jogo mais inclusivo, como a navegação e suporte a leitores de tela.  
+🚀 **Acessibilidade:** Implementar a acessibilidade para tornar o jogo mais inclusivo, como a navegação e suporte a leitores de tela.
 
 ---
 
@@ -84,6 +84,6 @@ Projeto licenciado sob a **MIT License** 📝, permitindo uso, modificação e d
 ---
 
 ## ✨ **Reflexão Final**  
-💡 Este projeto foi uma excelente oportunidade para aplicar meus conhecimentos em JavaScript, especialmente na manipulação de arrays e criação de funções, além de aprimorar minhas habilidades em CSS para construir uma interface responsiva e visualmente atrativa, evidenciando minha capacidade de resolver problemas de forma prática, eficiente e criativa no desenvolvimento web.
+💡 Este projeto foi uma excelente oportunidade para aplicar meus conhecimentos em JavaScript e aprimorar minhas habilidades em CSS para construir uma interface responsiva e visualmente atrativa, evidenciando minha capacidade de resolver problemas de forma prática, eficiente e criativa no desenvolvimento web.
 
 [![Feito com Amor](https://img.shields.io/badge/Feito_com-❤️-red)](https://github.com/CarinaMendesDev)
